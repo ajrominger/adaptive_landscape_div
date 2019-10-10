@@ -17,7 +17,8 @@ Imports:
     graphics,
     stats,
     grDevices,
-    ape
+    ape, 
+    plyr
 Suggests:
     testthat
 RoxygenNote: 6.1.1
