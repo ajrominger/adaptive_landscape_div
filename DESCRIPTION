@@ -1,0 +1,23 @@
+Package: adaptiveLandscapeDiv
+Type: Package
+Title: Models of macroevolutionary diversifiation on adaptive landscapes
+Version: 1.0
+Date: 2019-10-10
+Author: Andy Rominger
+Maintainer: Andy Rominger <ajrominger@gmail.com>
+Description: Models of macroevolutionary diversifiation on adaptive landscapes
+License: GPL-2
+URL: https://github.com/ajrominger/adaptive_landscape_div
+BugReports: https://github.com/ajrominger/adaptive_landscape_div/issues
+LazyLoad: yes
+LazyData: true
+Depends:
+    R (>= 3.6.0)
+Imports:
+    graphics,
+    stats,
+    grDevices,
+    ape
+Suggests:
+    testthat
+RoxygenNote: 6.1.1
